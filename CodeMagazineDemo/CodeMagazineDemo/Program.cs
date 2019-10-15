@@ -15,6 +15,7 @@ namespace CodeMagazineDemo
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            Console.WriteLine("This is a test");
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
